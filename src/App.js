@@ -1,8 +1,8 @@
 function App() {
   return (
   <>
-      <nav classNameName="navbar">
-      <div classNameName="nav-center">
+      <nav className="navbar">
+      <div className="nav-center">
         <div className="nav-header">
           <img src="./images/logo.svg" className="nav-logo" alt="backroads" />
           <button type="button" className="nav-toggle" id="nav-toggle">
@@ -10,9 +10,9 @@ function App() {
           </button>
         </div>
         {/* <!-- left this comment on purpose --> */}
-        <ul classNameName="nav-links" id="nav-links">
+        <ul className="nav-links" id="nav-links">
           <li>
-            <a href="#home" classNameName="nav-link"> home </a>
+            <a href="#home" className="nav-link"> home </a>
           </li>
 
           <li>
